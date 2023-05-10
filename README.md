@@ -1,2 +1,2 @@
 # htmlacademy-htmlcss-device
-Проект "Device"
+Учебный проект "Device"
