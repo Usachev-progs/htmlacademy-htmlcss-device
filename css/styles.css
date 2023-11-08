@@ -27,4 +27,13 @@ body{
   font-weight: 400;
   font-size: 18px;
   color: #444;
+  line-height: 30px;
+}
+
+.title{
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 50px;
+  color: #000;
+  line-height: 50px;
 }
