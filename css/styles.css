@@ -37,3 +37,71 @@ body{
   color: #000;
   line-height: 50px;
 }
+
+.search-button{
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: 1px, #444;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: #000;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.search-input::placeholder {
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.navigation-user, navigation-shop-list {
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.navigation-list{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+  list-style: none;
+  color: #000;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+
+.page-header {
+  background-color: #FFE16F;
+}
+
+.slide-number{
+  color: #FFF;
+  text-align: right;
+  font-family: 'Rubik', sans-serif;
+  font-size: 180px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.button{
+  color:#000;
+  text-align: center;
+  font-family: 'Raleway',sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #FFE16F;
+}
