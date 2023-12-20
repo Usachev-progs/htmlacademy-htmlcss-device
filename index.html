@@ -11,66 +11,72 @@
         <a class="navigation-logo" href="index.html">
           <img class="page-header-logo" src="./img/logos/logo.svg" height="36" width="145" alt="Логотип интернет магазина «Девайс»">
         </a>
-        <form class="navigation-search" action="https://echo.htmlacademy.ru/" method="post">
-          <label class="search-label">
-            <span class="visually-hidden">Поиск по сайту.</span>
-            <input class="search-input" type="search" name="search" placeholder="Текст поиска">
-          </label>
-          <button class="search-button" type="submit">Найти</button>
-        </form>
-        <ul class="navigation-user">
-          <li class="login">
-            <a class="login-button link" href="#">Войти</a>
-          </li>
-        </ul>
-        <ul class="navigation-shop-list">
-          <li class="compare">
-            <a class="compare-link link" href="#">Сравнить</a>
-          </li>
-          <li class="cart">
-            <button class="cart-button link" type="button">Корзина</button>
-          </li>
-        </ul>
+        <div class="user-menu">
+          <form class="navigation-search" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="search-label">
+              <span class="fix visually-hidden">Поиск по сайту.</span>
+              <input class="search-input" type="search" name="search" placeholder="Текст поиска">
+            </label>
+            <button class="search-button" type="submit">Найти</button>
+          </form>
+          <ul class="navigation-user">
+            <li class="login">
+              <a class="login-button link" href="#">Войти</a>
+            </li>
+          </ul>
+          <ul class="navigation-shop-list">
+            <li class="compare">
+              <a class="compare-link link" href="#">Сравнить</a>
+            </li>
+            <li class="cart">
+              <button class="cart-button link" type="button">Корзина</button>
+            </li>
+          </ul>
+        </div>
         <ul class="navigation-list reset-list">
           <li class="catolog-toggler">
             <a class="catolog-toggler-link link" href="catalog.html">Каталог товаров</a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link link" href="#">Доставка</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link link" href="#">Гарантия</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link link" href="#">Контакты</a>
-          </li>
+          <div class="navigation-conteiner">
+            <li class="navigation-item">
+              <a class="navigation-link link" href="#">Доставка</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link link" href="#">Гарантия</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link link" href="#">Контакты</a>
+            </li>
+          </div>
         </ul>
       </nav>
     </header>
-    <main class="main-index">
+    <main class="main-conteiner main-index">
       <h1 class="visually-hidden">Интернет-магазин «Девайс»</h1>
         <section class="slider">
           <h2 class="visually-hidden">Слайдер с товарами</h2>
           <ul class="slider-list reset-list">
             <li class="slider-page">
               <img class="slider-image" src="./img/slider-img/slider-1.png" height="560" width="560" alt="Фотография квадрокоптера с лазер-камерой.">
-              <span class="slide-number">01</span>
-              <h3 class="slider-product-title title">Порхает как бабочка, жалит как пчела!</h3>
-              <p class="slider-product-description">
-                Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
-                замаскированным под стандартную камеру.
-              </p>
-              <a class="button button-details" href="#">Подробнее</a>
-              <dl class="characteristics">
-                <div class="characteristics-wrapper">
-                  <dt class="characteristics-description">Дальность полета</dt>
-                  <dd class="characteristics-attribute">800 м</dd>
-                </div>
-                <div class="characteristics-wrapper">
-                  <dt class="characteristics-description">Радиус поражения</dt>
-                  <dd class="characteristics-attribute">50 м</dd>
-                </div>
-              </dl>
+              <div class="slider-page-conteiner">
+                <span class="slide-number">01</span>
+                <h3 class="slider-product-title title">Порхает как бабочка, жалит как пчела!</h3>
+                <p class="slider-product-description">
+                  Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
+                  замаскированным под стандартную камеру.
+                </p>
+                <a class="button button-details" href="#">Подробнее</a>
+                <dl class="characteristics">
+                  <div class="characteristics-wrapper">
+                    <dd class="characteristics-attribute">800 м</dd>
+                    <dt class="characteristics-description">Дальность полета</dt>
+                  </div>
+                  <div class="characteristics-wrapper">
+                    <dd class="characteristics-attribute">50 м</dd>
+                    <dt class="characteristics-description">Радиус поражения</dt>
+                  </div>
+                </dl>
+              </div>
             </li>
           <button class="slider-button slider-prev" type="button">
             <span class="visually-hidden">Показать предыдущий товар</span>

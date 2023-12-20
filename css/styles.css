@@ -21,13 +21,24 @@
   font-display: swap;
   src: url('../fonts/rubik/rubik-700.woff2') format('.woff2');
 }
+html {
+  height: 100%;
+}
 
-body{
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: #444;
+}
+
+.main-conteiner {
+  flex-grow: 1;
 }
 
 .title{
@@ -46,6 +57,7 @@ body{
   border-bottom-right-radius: 50px;
   font-weight: 400;
   line-height: 20px;
+  background-color: #FFE16F;
   color: #000;
 }
 
@@ -64,9 +76,21 @@ body{
   color: #000;
 }
 
+.cart-button{
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border: 0;
+  font-weight: 400;
+  line-height: 30px;
+  background-color: #FFE16F;
+  color: #000;
+}
+
 .navigation-list {
   font-family: 'Raleway', sans-serif;
+  font-style: normal;
   font-weight: 800;
+  line-height: normal;
   letter-spacing: 3.6px;
   text-transform: uppercase;
   color: #000;
@@ -323,4 +347,122 @@ body{
 
 .pagination-container {
   background-color: #EBEBEB;
+}
+
+.page-header {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.navigation-logo{
+  display: block;
+  width: 145px;
+}
+.user-menu {
+  display: flex;
+  align-items: center;
+  width: 1040px;
+  height: 40px;
+}
+
+.navigation-shop-list{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 240px;
+  margin-left: auto;
+}
+
+.navigation-search{
+  display: flex;
+  width: 520px;
+}
+
+.search-input {
+  width: 350px;
+  height: 40px;
+}
+
+.search-button {
+  width: 160px;
+}
+
+.navigation-user {
+  margin: 0;
+  padding: 0;
+  width: 230px;
+  margin-left: auto;
+}
+
+.compare {
+  width: 110px;
+}
+
+.cart{
+  text-align: right;
+  width: 100px;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 1040px;
+}
+
+.catolog-toggler {
+  width: 290px;
+}
+
+.navigation-conteiner {
+  display: flex;
+  justify-content: space-between;
+  width: 515px;
+  margin-left: auto;
+}
+
+.navigation-item {
+  min-width: 125px;
+}
+
+.navigation-conteiner :nth-child(3) {
+  width: 145px;
+}
+
+.slider-page{
+  display: flex;
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.slider-page-conteiner {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.characteristics {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+}
+
+.button-details {
+  width: 220px;
+}
+
+.characteristics-wrapper {
+  width: 160px;
+}
+
+.fix {
+  display: none;
 }
