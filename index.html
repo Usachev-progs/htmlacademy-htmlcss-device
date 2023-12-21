@@ -37,7 +37,7 @@
           <li class="catolog-toggler">
             <a class="catolog-toggler-link link" href="catalog.html">Каталог товаров</a>
           </li>
-          <div class="navigation-conteiner">
+          <div class="navigation-container">
             <li class="navigation-item">
               <a class="navigation-link link" href="#">Доставка</a>
             </li>
@@ -51,14 +51,14 @@
         </ul>
       </nav>
     </header>
-    <main class="main-conteiner main-index">
+    <main class="main-container main-index">
       <h1 class="visually-hidden">Интернет-магазин «Девайс»</h1>
         <section class="slider">
           <h2 class="visually-hidden">Слайдер с товарами</h2>
           <ul class="slider-list reset-list">
             <li class="slider-page">
               <img class="slider-image" src="./img/slider-img/slider-1.png" height="560" width="560" alt="Фотография квадрокоптера с лазер-камерой.">
-              <div class="slider-page-conteiner">
+              <div class="slider-page-container">
                 <span class="slide-number">01</span>
                 <h3 class="slider-product-title title">Порхает как бабочка, жалит как пчела!</h3>
                 <p class="slider-product-description">
@@ -78,29 +78,33 @@
                 </dl>
               </div>
             </li>
-          <button class="slider-button slider-prev" type="button">
-            <span class="visually-hidden">Показать предыдущий товар</span>
-          </button>
-          <button class="slider-button slider-next" type="button">
-            <span class="visually-hidden">Показать следующий товар</span>
-          </button>
-          <ol class="slider-pagination reset-list">
-            <li class="slider-pagination-item">
-              <button class="slider-pagination-button slider-pagination-button-current" type="button">
-                <span class="visually-hidden">1 товар</span>
+          <div class="slider-control-container">
+            <div class="slider-button-container">
+              <button class="slider-button slider-prev" type="button">
+                <span class="visually-hidden">Показать предыдущий товар</span>
               </button>
-            </li>
-            <li class="slider-pagination-item">
-              <button class="slider-pagination-button" type="button">
-                <span class="visually-hidden">2 товар</span>
+              <button class="slider-button slider-next" type="button">
+                <span class="visually-hidden">Показать следующий товар</span>
               </button>
-            </li>
-            <li class="slider-pagination-item">
-              <button class="slider-pagination-button" type="button">
-                <span class="visually-hidden">3 товар</span>
-              </button>
-            </li>
-          </ol>
+            </div>
+            <ol class="slider-pagination reset-list">
+              <li class="slider-pagination-item">
+                <button class="slider-pagination-button slider-pagination-button-current" type="button">
+                  <span class="visually-hidden">1 товар</span>
+                </button>
+              </li>
+              <li class="slider-pagination-item">
+                <button class="slider-pagination-button" type="button">
+                  <span class="visually-hidden">2 товар</span>
+                </button>
+              </li>
+              <li class="slider-pagination-item">
+                <button class="slider-pagination-button" type="button">
+                  <span class="visually-hidden">3 товар</span>
+                </button>
+              </li>
+            </ol>
+          </div>
         </section>
         <section class="catalog-category">
           <h2 class="visually-hidden">Католог категорий</h2>
@@ -137,46 +141,48 @@
             </li>
           </ul>
         </section>
-        <section class="advantages">
-          <h2 class="visually-hidden">Преимущества</h2>
-          <ul class="tabs-buttons-list reset-list">
-            <li class="tabs-buttons-list-item">
-              <button class="button tab-buttons tab-buttons-current" type="button">
-                Доставка
-              </button>
-            </li>
-            <li class="tabs-buttons-list-item">
-              <button class="button tab-buttons" type="button">
-                Гарантия
-              </button>
-            </li>
-            <li class="tabs-buttons-list-item">
-              <button class="button tab-buttons" type="button">
-                Кредит
-              </button>
-            </li>
-          </ul>
-          <ul class="tabs-description-list reset-list">
-            <li class="tabs-description-item tabs-description-item-active tabs-delivery-icon">
-              <h3 class="advantages-tab-title title">Доставка</h3>
-              <p class="advantages-description">Мы с удовольствием доставим ваш товар прямо
-                к вашему подъезду совершенно бесплатно! Ведь
-                мы неплохо заработаем, поднимая его на ваш этаж.</p>
-            </li>
-            <li class="tabs-description-item tabs-guarantee-icon">
-              <h3 class="advantages-tab-title title">Гарантия</h3>
-              <p class="advantages-description">Если из-за возгорания купленного у нас товара у вас
-                сгорит дом — не переживайте, мы выдадим вам новый.
-                Товар, не дом, конечно же.</p>
-            </li>
-            <li class="tabs-description-item tabs-credit-icon">
-              <h3 class="advantages-tab-title title">Кредит</h3>
-              <p class="advantages-description">Залезть в долговую яму стало проще!
-                Кредитные консультанты подберут для вас наиболее выгодные условия кредита.
-                Выгодные для банка, разумеется.</p>
-            </li>
-          </ul>
-        </section>
+        <div class="advantages-container">
+          <section class="advantages">
+            <h2 class="visually-hidden">Преимущества</h2>
+            <ul class="tabs-buttons-list reset-list">
+              <li class="tabs-buttons-list-item">
+                <button class="button tab-buttons tab-buttons-current" type="button">
+                  Доставка
+                </button>
+              </li>
+              <li class="tabs-buttons-list-item">
+                <button class="button tab-buttons" type="button">
+                  Гарантия
+                </button>
+              </li>
+              <li class="tabs-buttons-list-item">
+                <button class="button tab-buttons" type="button">
+                  Кредит
+                </button>
+              </li>
+            </ul>
+            <ul class="tabs-description-list reset-list">
+              <li class="tabs-description-item tabs-description-item-active tabs-delivery-icon">
+                <h3 class="advantages-tab-title title">Доставка</h3>
+                <p class="advantages-description">Мы с удовольствием доставим ваш товар прямо
+                  к вашему подъезду совершенно бесплатно! Ведь
+                  мы неплохо заработаем, поднимая его на ваш этаж.</p>
+              </li>
+              <li class="tabs-description-item tabs-guarantee-icon">
+                <h3 class="advantages-tab-title title">Гарантия</h3>
+                <p class="advantages-description">Если из-за возгорания купленного у нас товара у вас
+                  сгорит дом — не переживайте, мы выдадим вам новый.
+                  Товар, не дом, конечно же.</p>
+              </li>
+              <li class="tabs-description-item tabs-credit-icon">
+                <h3 class="advantages-tab-title title">Кредит</h3>
+                <p class="advantages-description">Залезть в долговую яму стало проще!
+                  Кредитные консультанты подберут для вас наиболее выгодные условия кредита.
+                  Выгодные для банка, разумеется.</p>
+              </li>
+            </ul>
+          </section>
+        </div>
         <section class="delivery-block">
           <a class="delivery-info-link" href="#">
             Доставим редкий товар под заказ
