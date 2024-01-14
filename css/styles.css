@@ -1,4 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Rubik:wght@400;700&display=swap');
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway/Raleway-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik/Rubik-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik/Rubik-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 html {
   height: 100%;
@@ -192,6 +214,7 @@ body {
 
 .reset-list{
   list-style: none;
+  padding: 0;
 }
 
 .field::placeholder {
@@ -416,12 +439,9 @@ body {
 }
 
 .navigation-item {
-  min-width: 125px;
+  min-width: 127px;
 }
 
-.navigation-container :nth-child(3) {
-  width: 145px;
-}
 
 .slider-page{
   display: flex;
