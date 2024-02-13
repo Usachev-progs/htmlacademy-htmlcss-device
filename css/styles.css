@@ -39,6 +39,10 @@ body {
   color: #444;
 }
 
+.about-us {
+  width: 520px;
+}
+
 .advantages {
   align-items: center;
   display: flex;
@@ -61,7 +65,7 @@ body {
  }
 
 .button {
-  background-color: #FFE16F;
+  background-color: #FFE17F;
   border: 0;
   color: #000;
   font-family: 'Raleway',sans-serif;
@@ -77,6 +81,18 @@ body {
   width: 220px;
 }
 
+.button-more-about-us {
+  min-width: 270px;
+  min-height: 40px;
+  display: inline-block;
+}
+
+.button-decorated {
+  min-width: 260px;
+  min-height: 40px;
+  display: inline-block;
+}
+
 .cart {
   text-align: right;
   padding: 0;
@@ -84,7 +100,7 @@ body {
 }
 
 .cart-button {
-  background-color: #FFE16F;
+  background-color: #FFE17F;
   border: 0;
   padding: 0;
   color: #000;
@@ -179,6 +195,18 @@ body {
   width: 110px;
 }
 
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+  height: 545px;
+  margin: 0 auto;
+}
+
+.contacts {
+  max-width: 532px;
+}
+
 .contacts-address {
   font-style: normal;
 }
@@ -192,7 +220,11 @@ body {
 }
 
 .delivery-block {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  height: 100px;
+  width: 1160px;
 }
 
 .delivery-block, .newsletter {
@@ -204,10 +236,24 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 800;
+  margin: 0 auto;
   letter-spacing: 4px;
-  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.delivery-icon, .delivery-info-icon {
+  width: 125px;
+  height: 100px;
+}
+
+.delivery-icon {
+  background-color: #FFE17F;
+}
+
+.field {
+  width: 557px;
+  height: 49px;
 }
 
 .field::placeholder {
@@ -329,9 +375,37 @@ body {
   line-height: 30px;
 }
 
+.newsletter-additional-text {
+  margin-left: auto;
+}
+
+.newsletter-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+  margin: 0 auto;
+}
+
 .newsletter-button {
   background-color: #F0F0F0;
   border: 3px solid #CECECE;
+  width: 253px;
+  height: 55px;
+}
+
+.newsletter-description {
+  max-width: 560px;
+  margin: 0;
+}
+
+.newsletter-form {
+  display: flex;
+  width: 810px;
+}
+
+.newsletter-title {
+  width: 348px;
+  margin: 0;
 }
 
 .page-footer {
@@ -340,7 +414,7 @@ body {
 }
 
 .page-header {
-  background-color: #FFE16F;
+  background-color: #FFE17F;
   margin: 0 auto;
   width: 1160px;
 }
@@ -395,7 +469,7 @@ body {
 }
 
 .search-button {
-  background-color: #FFE16F;
+  background-color: #FFE17F;
   border: 1px, #444;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
@@ -489,6 +563,13 @@ body {
   border-radius: 50%;
   height: 16px;
   width: 16px;
+}
+
+.subscription-form {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  width: 1160px;
 }
 
 .tab-buttons {
