@@ -289,6 +289,29 @@ body {
   font-size: 16px;
   font-style: normal;
   line-height: 20px;
+  align-self: center;
+}
+
+.footer-contacts {
+  width: 240px;
+}
+
+.footer-container {
+  height: 182px;
+  width: 1160px;
+  margin: 70px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-list {
+  display: flex;
+  align-self: center;
+  margin: 0;
+  margin-left: 170px;
+  margin-right: 131px;
+  justify-content: space-between;
+  width: 445px;
 }
 
 .footer-list-link {
@@ -301,9 +324,27 @@ body {
   text-transform: uppercase;
 }
 
+.footer-socials-list {
+  width: 150px;
+  margin-left: 540px;
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+}
+
+.footer-socials-item {
+  margin-left: 550px;
+  width: 40px;
+  height: 40px;
+}
+
 .link {
   color: #000;
   text-decoration: none;
+}
+
+.logo-html-academy {
+  margin-left: auto;
 }
 
 .main-container {
@@ -409,6 +450,7 @@ body {
 }
 
 .page-footer {
+  height: 321px;
   background-color: #444;
   color: #FFF;
 }
