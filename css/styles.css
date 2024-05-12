@@ -488,6 +488,7 @@ body {
   background-color: #FFE17F;
   margin: 0 auto;
   width: 1160px;
+  min-height: 300px;
 }
 
 .pagination-container {
@@ -700,5 +701,12 @@ body {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
