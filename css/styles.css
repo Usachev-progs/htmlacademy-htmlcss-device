@@ -133,6 +133,7 @@ body {
 }
 
 .catalog-category-list {
+  list-style-type: none;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -379,11 +380,18 @@ body {
   flex-grow: 1;
 }
 
+.login {
+  min-width: 80px;
+  text-align: right;
+}
+
+
 .navigation {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   width: 1040px;
+  gap: 30px;
 }
 
 .navigation-container {
@@ -412,6 +420,7 @@ body {
 }
 
 .navigation-logo {
+  margin-top: -22px;
   display: block;
   width: 145px;
 }
@@ -439,6 +448,7 @@ body {
 }
 
 .navigation-user, .navigation-shop-list {
+  list-style-type: none;
   color: #000;
   font-family: 'Rubik', Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -487,6 +497,7 @@ body {
 .page-header {
   background-color: #FFE17F;
   margin: 0 auto;
+  margin-top: 40px;
   width: 1160px;
   min-height: 300px;
 }
