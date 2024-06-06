@@ -120,9 +120,11 @@ body {
 }
 
 .breadcrumbs {
+  margin: 0;
   display: flex;
   justify-content: space-between;
   width: 435px;
+  margin-bottom: 35px;
 }
 
 .cart {
@@ -336,43 +338,63 @@ body {
   text-transform: uppercase;
 }
 
+.filter-title {
+  margin: 0;
+  padding: 25px 0;
+}
+
+.sorting-type {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  justify-content: space-between;
+}
+
 .fix {
   display: none;
 }
 
+.footer-logo {
+  margin-bottom: 35px;
+}
+
 .footer-about-text {
+  margin: 0;
   font-size: 16px;
   font-style: normal;
   line-height: 20px;
 }
 
 .footer-contacts-phone {
+  display: flex;
   width: 240px;
   color: #FFF;
   font-size: 16px;
   font-style: normal;
   line-height: 20px;
-  align-self: center;
+  margin-top: 80px;
+  justify-content: flex-end;
 }
 
 .footer-contacts {
+  margin-bottom: 60px;
   width: 240px;
 }
 
 .footer-container {
   height: 182px;
   width: 1160px;
-  margin: 70px auto;
+  margin: 60px auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 .footer-list {
   display: flex;
-  align-self: center;
   margin: 0;
-  margin-left: 112px; /* Выровнять по центру */
-  margin-right: 123px; /* Выровнять по центру */
+  margin-left: 117.5px; /* Выровнять по центру */
+  margin-right: 117.5px; /* Выровнять по центру */
+  margin-top: 80px;
   justify-content: space-between;
   width: 445px;
 }
@@ -389,10 +411,11 @@ body {
 
 .footer-socials-list {
   width: 445px;
+  margin: 0;
   margin-left: auto; /* Выровнять по центру */
   margin-right: auto; /* Выровнять по центру */
   display: flex;
-  flex-wrap: nowrap; /* Изменить на nowrap для избегания переноса */
+  flex-wrap: wrap;
   gap: 15px;
   justify-content: center; /* Центрировать флекс элементы */
 }
@@ -409,6 +432,12 @@ body {
   flex-direction: column;
   width: 1040px;
   margin: 0 auto;
+}
+
+.inner-header-title {
+  margin: 0;
+  margin-top: 35px;
+  margin-bottom: 16px;
 }
 
 .link {
@@ -558,7 +587,26 @@ body {
 }
 
 .pagination-container {
+  display: flex;
   background-color: #EBEBEB;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: space-between;
+}
+
+.pagination-list {
+  display: flex;
+  margin: 0;
+
+}
+
+.pagination-item {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
 }
 
 .pagination-link {
@@ -575,13 +623,21 @@ body {
   letter-spacing: 3.6px;
   line-height: normal;
   text-transform: uppercase;
+  padding: 25px;
 }
 
 .pagination-show-more {
+  display: flex;
   background-color: #FFF;
   border: 3px solid #E5E5E5;
   font-size: 16px;
   letter-spacing: 3.2px;
+  width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  margin-bottom: 44px;
+  padding: 18px 0;
 }
 
 .product-card-price {
@@ -595,10 +651,32 @@ body {
   font-size: 18px;
   letter-spacing: -0.36px;
   line-height: 20px;
+  margin: 0;
+  max-width: 205px;
+  word-break: keep-all;
+}
+
+.product-card-image-wrapper {
+  height: 380px;
+}
+
+.product-card-description{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
 }
 
 .product-container {
   background-color: #FFF;
+  padding: 70px 40px;
+}
+
+.product-list {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 44px;
 }
 
 .reset-list {
